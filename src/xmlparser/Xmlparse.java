@@ -49,8 +49,6 @@ public class Xmlparse {
 					String towards = eElement.getElementsByTagName("Towards").item(0).getTextContent();
 					String typ = eElement.getElementsByTagName("LineTypeName").item(0).getTextContent();
 					
-					//System.out.println("Name: " + name); // Name
-					//System.out.println("Towards: " + towards); // Towards
 					System.out.println(typ+" "+name+" mot "+towards);
 					linje = new Line(name, towards);
 				}
